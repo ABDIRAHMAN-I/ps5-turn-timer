@@ -26,13 +26,14 @@ I then turned the idea into a web app to make it easier and more fun for them (a
 
 ```
 ps5-turn-timer/
-├── index.html           # Web version HTML
-├── style.css            # Web version styling
-├── script.js            # Web timer logic
-├── Mario-coin-sound.mp3 # Fun sound file
-├── timer.sh             # Bash version of the timer
-├── makefile             # Shortcut to run the Bash timer
-└── README.md            # You're here!
+├── images/
+├── index.html           
+├── style.css           
+├── script.js            
+├── Mario-coin-sound.mp3 
+├── timer.sh             
+├── makefile             
+└── README.md            
 ```
 
 ---
@@ -57,9 +58,6 @@ Make sure it’s executable:
 chmod +x timer.sh
 ```
 
-
-```
-
 ---
 
 ## ✨ Why I Built This
@@ -68,9 +66,9 @@ I love solving real-world problems, even the small ones. This started with famil
 
 ---
 
-## 📸 Screenshot (Optional)
+## 📸 Screenshot
 
-Add a screenshot of your app here.
+![ps5-timer](images/ps5-turn-timer.png)
 
 ---
 
