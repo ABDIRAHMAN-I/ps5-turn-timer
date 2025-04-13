@@ -39,7 +39,7 @@ ps5-turn-timer/
 
 ## 🚀 Run the Web App
 
-You can [view the app here](https://yourusername.github.io/ps5-turn-timer) if deployed via GitHub Pages (see below).
+You can [view the app here](https://abdirahman-i.github.io/ps5-turn-timer/) if deployed via GitHub Pages (see below).
 
 Or open `index.html` in your browser.
 
@@ -57,20 +57,7 @@ Make sure it’s executable:
 chmod +x timer.sh
 ```
 
----
 
-## 🌐 Deploy with GitHub Pages
-
-Push your code to GitHub.
-
-Go to **Settings > Pages**
-
-Under **Source**, choose **main branch**, and **root folder**.
-
-Done — your timer is now live at:
-
-```
-https://yourusername.github.io/ps5-turn-timer
 ```
 
 ---
@@ -105,8 +92,3 @@ Add a screenshot of your app here.
 
 Thanks for checking this out! 🎉
 
----
-
-## ✅ Want Me to Help You Deploy It on GitHub Pages Now?
-
-Just let me know your GitHub repo name and username, and I’ll walk you through the last step.
