@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PS5 Turn Timer</title>
+  <title>🎮 PS5 Turn Timer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>🎮 PS5 Turn Timer</h1>
+
+  <label for="customTime">Enter time in minutes:</label>
+  <input type="number" id="customTime" value="6" min="1" />
+
   <p id="timer">06:00</p>
-  <button id="startBtn">Start Timer</button>
+
+  <button id="startBtn">Start</button>
+  <button id="pauseBtn">Pause</button>
+  <button id="resetBtn">Reset</button>
+
+  <div id="message" style="display:none;">⏰ Time's up! Pass the controller.</div>
 
   <script src="script.js"></script>
 </body>

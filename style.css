@@ -1,16 +1,81 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
-    background-color: #f7f7f7;
-  }
-  #timer {
-    font-size: 5em;
-    margin: 20px 0;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
-  
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #444;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #fff;
+}
+
+#timer {
+  font-size: 5em;
+  color: #222;
+  margin: 20px 0;
+  padding: 10px 30px;
+  background: #ffffffcc;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+label {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#customTime {
+  font-size: 1.5em;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  text-align: center;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: #fff;
+}
+
+#startBtn { background-color: #4CAF50; }
+#startBtn:hover { background-color: #45a049; }
+
+#pauseBtn { background-color: #f0ad4e; }
+#pauseBtn:hover { background-color: #ec971f; }
+
+#resetBtn { background-color: #d9534f; }
+#resetBtn:hover { background-color: #c9302c; }
+
+#message {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #333;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
