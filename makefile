@@ -1,4 +1,4 @@
 .PHONY: timer
 
 timer:
-	./timer.sh
+	./ps5-bash-timer.sh
